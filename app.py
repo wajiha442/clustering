@@ -25,3 +25,4 @@ dbscan_result = dbscan.fit_predict(scaled_data)[0]
 st.subheader("Results")
 st.write(f"✅ K-Means Cluster: {kmeans_result}")
 st.write(f"✅ DBSCAN Cluster: {dbscan_result}")
+
