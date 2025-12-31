@@ -6,6 +6,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.cluster import KMeans
 from io import BytesIO
+import warnings
+
+# Suppress version warnings
+warnings.filterwarnings('ignore', category=UserWarning)
 
 # Page config
 st.set_page_config(page_title="Customer Segmentation", layout="wide")
